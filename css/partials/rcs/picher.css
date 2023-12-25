@@ -1,0 +1,76 @@
+/* --------------------------------------   0 */
+@media only screen and (min-width:0px){
+    .picher{
+    
+        background: linear-gradient(131deg, #F4EDE1 16.74%, #98B1C6 103.17%);
+        display: flex;
+        width: 95%;
+        /* height: 508px; */
+        padding: 26px 38px;
+        margin: 0 auto;
+        margin-top: 64px;
+        margin-bottom: 30px;
+        }
+        .picher img{
+           width: 100%;
+           object-fit: cover;
+        }
+}
+/* --------------------------------------   end 0 */
+/* --------------------------------------   576 */
+@media only screen and (min-width:576px){
+    .picher{
+    
+        background: linear-gradient(131deg, #F4EDE1 16.74%, #98B1C6 103.17%);
+        display: flex;
+        width: 95%;
+        /* height: 508px; */
+        padding: 30px 42px;
+        margin: 0 auto;
+        margin-top: 64px;
+        margin-bottom: 40px;
+        }
+        .picher img{
+           width: 100%;
+           object-fit: cover;
+        }
+}
+/* --------------------------------------   end 576 */
+/* --------------------------------------   768 */
+@media only screen and (min-width:768px){
+    .picher{
+    
+        background: linear-gradient(131deg, #F4EDE1 16.74%, #98B1C6 103.17%);
+        display: flex;
+        width: 90%;
+        /* height: 508px; */
+        padding: 38px 50px;
+        margin: 0 auto;
+        margin-top: 64px;
+        margin-bottom: 50px;
+        }
+        .picher img{
+           width: 100%;
+           object-fit: cover;
+        }
+}
+/* --------------------------------------   end 768 */
+/* --------------------------------------   992 */
+@media only screen and (min-width:992px){
+    .picher{
+    
+        background: linear-gradient(131deg, #F4EDE1 16.74%, #98B1C6 103.17%);
+        display: flex;
+        width: 840px;
+        /* height: 508px; */
+        padding: 42px 55px 43px 57px;
+        margin: 0 auto;
+        margin-top: 64px;
+        margin-bottom: 64px;
+        }
+        .picher img{
+           width: 100%;
+           object-fit: cover;
+        }
+}
+/* --------------------------------------   end 992 */

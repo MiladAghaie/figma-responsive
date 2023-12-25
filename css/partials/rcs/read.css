@@ -1,0 +1,169 @@
+/* **************************************** 0px */
+@media only screen and (min-width:0px){
+   .read {
+      width: 95%;
+      padding: 50px 0;
+      margin: 0 auto;
+      text-align: start;
+    }
+    .read .full {
+      width: 100%;
+      display: flex;
+      flex-flow: row wrap;
+      justify-content: space-between;
+      border-bottom: 2px solid rgb(40, 41, 56, 0.2);
+    }
+    .read .full .full-column {
+       display: flex;
+       flex-flow: column nowrap;
+       padding-bottom: 32px;
+      }
+      /* .read .full .full-column:nth-of-type(3) {
+         margin: 0 auto;
+      } */
+    .read .full .full-column p {
+      color: var(--Dark-blue);
+      font-family: Poppins;
+      font-size: 16px;
+      font-style: normal;
+      font-weight: 500;
+      opacity: 0.8;
+    }
+    .read .full .full-column h6 {
+      color: var(--Dark-blue);
+    
+      /* Heading 6 */
+      font-family: Poppins;
+      font-size: 24px;
+      font-style: normal;
+      font-weight: 500;
+    }
+    
+}
+/* **************************************** end 0px */
+/* **************************************** 768px */
+@media only screen and (min-width:768px){
+   .read {
+      width: 90%;
+      padding: 50px 0;
+      margin: 0 auto;
+      text-align: start;
+    }
+    .read .full {
+      width: 100%;
+      display: flex;
+      flex-flow: row wrap;
+      justify-content: space-between;
+      border-bottom: 2px solid rgb(40, 41, 56, 0.2);
+    }
+    .read .full .full-column {
+       display: flex;
+       flex-flow: column nowrap;
+       padding-bottom: 32px;
+      }
+      .read .full .full-column:nth-of-type(3) {
+         margin: 0 auto;
+      }
+    .read .full .full-column p {
+      color: var(--Dark-blue);
+      font-family: Poppins;
+      font-size: 16px;
+      font-style: normal;
+      font-weight: 500;
+      opacity: 0.8;
+    }
+    .read .full .full-column h6 {
+      color: var(--Dark-blue);
+    
+      /* Heading 6 */
+      font-family: Poppins;
+      font-size: 24px;
+      font-style: normal;
+      font-weight: 500;
+    }
+    
+}
+/* **************************************** end 768px */
+/* **************************************** 992px */
+@media only screen and (min-width:992px){
+   .read {
+      width: 85%;
+      padding: 50px 0 96px;
+      margin: 0 auto;
+      text-align: start;
+    }
+    .read .full {
+      width: 100%;
+      display: flex;
+      flex-flow: row nowrap;
+      justify-content: space-between;
+      border-bottom: 2px solid rgb(40, 41, 56, 0.2);
+    }
+    .read .full .full-column {
+      display: flex;
+      flex-flow: column nowrap;
+      padding-bottom: 32px;
+    }
+    .read .full .full-column:nth-of-type(3) {
+      margin: unset;
+   }
+    .read .full .full-column p {
+      color: var(--Dark-blue);
+      font-family: Poppins;
+      font-size: 16px;
+      font-style: normal;
+      font-weight: 500;
+      opacity: 0.8;
+    }
+    .read .full .full-column h6 {
+      color: var(--Dark-blue);
+    
+      /* Heading 6 */
+      font-family: Poppins;
+      font-size: 24px;
+      font-style: normal;
+      font-weight: 500;
+    }
+    
+}
+/* **************************************** end 992px */
+/* **************************************** 1200px */
+@media only screen and (min-width:1200px){
+   .read {
+      width: 70%;
+      padding: 50px 0 96px;
+      margin: 0 auto;
+      text-align: start;
+    }
+    .read .full {
+      width: 100%;
+      display: flex;
+      flex-flow: row nowrap;
+      justify-content: space-between;
+      border-bottom: 2px solid rgb(40, 41, 56, 0.2);
+    }
+    .read .full .full-column {
+      display: flex;
+      flex-flow: column nowrap;
+      padding-bottom: 32px;
+    }
+    .read .full .full-column p {
+      color: var(--Dark-blue);
+      font-family: Poppins;
+      font-size: 16px;
+      font-style: normal;
+      font-weight: 500;
+      opacity: 0.8;
+    }
+    .read .full .full-column h6 {
+      color: var(--Dark-blue);
+    
+      /* Heading 6 */
+      font-family: Poppins;
+      font-size: 24px;
+      font-style: normal;
+      font-weight: 500;
+    }
+    
+}
+/* **************************************** end 1200px */

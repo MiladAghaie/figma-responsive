@@ -19,6 +19,7 @@
         display: flex;
         flex-flow: column wrap;
         flex-grow: 1;
+        width: 100%;
     }
     form .inline-form .inline-input label{
         color: #000;
@@ -33,6 +34,7 @@
         border-radius: 8px;
     border: 1px solid rgba(0, 0, 0, 0.12);
     color: #000;
+    width: 100%;
     
     /* Paragraph */
     font-family: Poppins;
@@ -69,10 +71,11 @@
     line-height: 28px;
     resize: none;
     margin-bottom: 32px;
+    width: 100%;
     }
     form a{
         display: flex;
-    width: 254px;
+    width: 95%;
     height: 64px;
     padding: 15px 51px;
     justify-content: center;
@@ -110,6 +113,7 @@
         display: flex;
         flex-flow: column wrap;
         flex-grow: 1;
+        width: unset;
     }
     form .inline-form .inline-input label{
         color: #000;
@@ -118,13 +122,14 @@
         font-weight: 500;
         line-height: 32px; /* 177.778% */
         margin-bottom: 6px;
+        
     }
     form .inline-form .inline-input input{
         padding: 18px 32px;
         border-radius: 8px;
     border: 1px solid rgba(0, 0, 0, 0.12);
     color: #000;
-    
+    width: unset;
     /* Paragraph */
     font-family: Poppins;
     font-size: 16px;

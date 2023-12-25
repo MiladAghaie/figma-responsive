@@ -1,0 +1,171 @@
+/* *************************************   0 */
+@media only screen and (min-width:0px){
+    .top{
+        width: 100%;
+        text-align: center;
+        background-color: #F4F6FC;
+        font-family: poppins;   
+        padding: 25px 0;
+    }
+    .top p{
+        /* width: 50%; */
+        /* margin: 0 auto; */
+        padding-top: 4px;
+        color: var(--Dark-blue, #282938);
+    text-align: center;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 28px; /* 175% */
+        
+    }
+    .top blockquote{
+        /* width: 48%; */
+        width: 90%;
+        margin: 0 auto;
+        padding-top: 24px;
+    color: var(--Dark-blue, #282938);
+    text-align: center;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 28px; /* 175% */
+    
+    }
+    .icon{
+        width: 150px;;
+        display: flex;
+        justify-content: space-between;
+        margin: 0 auto;
+        padding-top: 32px;
+    
+    }
+    .top h2{
+            color: var(--Dark-blue, #282938);
+    text-align: center;
+    
+    /* Heading 2 */
+    font-family: Poppins;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 64px; /* 133.333% */
+    }
+}
+/* *************************************   end 0 */
+/* *************************************   768 */
+@media only screen and (min-width:768px){
+    .top{
+        width: 100%;
+        text-align: center;
+        background-color: #F4F6FC;
+        font-family: poppins;   
+        padding: 60px 0;
+    }
+    .top p{
+        /* width: 50%; */
+        /* margin: 0 auto; */
+        padding-top: 4px;
+        color: var(--Dark-blue, #282938);
+    text-align: center;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 28px; /* 175% */
+        
+    }
+    .top blockquote{
+        /* width: 48%; */
+        width: 733px;
+        margin: 0 auto;
+        padding-top: 24px;
+    color: var(--Dark-blue, #282938);
+    text-align: center;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 28px; /* 175% */
+    
+    }
+    .icon{
+        width: 150px;;
+        display: flex;
+        justify-content: space-between;
+        margin: 0 auto;
+        padding-top: 32px;
+    
+    }
+    .top h2{
+            color: var(--Dark-blue, #282938);
+    text-align: center;
+    
+    /* Heading 2 */
+    font-family: Poppins;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 64px; /* 133.333% */
+    }
+}
+/* *************************************   end 768 */
+/* *************************************   992 */
+@media only screen and (min-width:992px){
+    .top{
+        width: 100%;
+        text-align: center;
+        background-color: #F4F6FC;
+        font-family: poppins;   
+        padding: 96px 0;
+    }
+    .top p{
+        /* width: 50%; */
+        /* margin: 0 auto; */
+        padding-top: 4px;
+        color: var(--Dark-blue, #282938);
+    text-align: center;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 28px; /* 175% */
+        
+    }
+    .top blockquote{
+        /* width: 48%; */
+        width: 733px;
+        margin: 0 auto;
+        padding-top: 24px;
+    color: var(--Dark-blue, #282938);
+    text-align: center;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 28px; /* 175% */
+    
+    }
+    .icon{
+        width: 150px;;
+        display: flex;
+        justify-content: space-between;
+        margin: 0 auto;
+        padding-top: 32px;
+    
+    }
+    .top h2{
+            color: var(--Dark-blue, #282938);
+    text-align: center;
+    
+    /* Heading 2 */
+    font-family: Poppins;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 64px; /* 133.333% */
+    }
+}
+/* *************************************   end 992 */

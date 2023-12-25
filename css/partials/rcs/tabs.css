@@ -1,0 +1,162 @@
+/* -------------------------------------   0 */
+@media only screen and (min-width:0px){
+    .tabs{
+        width: 95%;
+        display: flex;
+        justify-content:space-between;
+        flex-wrap: wrap;
+        margin: 0 auto;
+        margin-top: 112px;
+        border-bottom: 2px solid #28293821;
+        border-top: 2px solid #28293821;
+        
+        
+    }
+    .tabs a{
+        text-decoration: none;
+        padding: 26px 0px;
+        color: var(--Dark-blue, #282938);
+    text-align: justify;
+    font-family: Poppins;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 32px; /* 177.778% */
+    opacity: 0.7;
+    }
+    .tabs a:nth-of-type(1){
+        color: var(--Royal-Blue, #2405F2);
+        font-weight: bold;
+        opacity: 1;
+    }
+}
+/* -------------------------------------   end 0 */
+/* -------------------------------------   576 */
+@media only screen and (min-width:576px){
+    .tabs{
+        width: 95%;
+        display: flex;
+        justify-content:space-between;
+        flex-wrap: wrap;
+        margin: 0 auto;
+        margin-top: 112px;
+        border-bottom: 2px solid #28293821;
+        border-top: 2px solid #28293821;
+        
+        
+    }
+    .tabs a{
+        text-decoration: none;
+        padding: 26px 0px;
+        color: var(--Dark-blue, #282938);
+    text-align: justify;
+    font-family: Poppins;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 32px; /* 177.778% */
+    opacity: 0.7;
+    }
+    .tabs a:nth-of-type(1){
+        color: var(--Royal-Blue, #2405F2);
+        font-weight: bold;
+        opacity: 1;
+    }
+}
+/* -------------------------------------   end 576 */
+/* -------------------------------------   768 */
+@media only screen and (min-width:768px){
+    .tabs{
+        width: 90%;
+        display: flex;
+        justify-content:space-between;
+        margin: 0 auto;
+        margin-top: 112px;
+        border-bottom: 2px solid #28293821;
+        border-top: 2px solid #28293821;
+        
+        
+    }
+    .tabs a{
+        text-decoration: none;
+        padding: 26px 0px;
+        color: var(--Dark-blue, #282938);
+    text-align: justify;
+    font-family: Poppins;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 32px; /* 177.778% */
+    opacity: 0.7;
+    }
+    .tabs a:nth-of-type(1){
+        color: var(--Royal-Blue, #2405F2);
+        font-weight: bold;
+        opacity: 1;
+    }
+}
+/* -------------------------------------   end 768 */
+/* -------------------------------------   992 */
+@media only screen and (min-width:992px){
+    .tabs{
+        width: 85%;
+        display: flex;
+        justify-content:space-between;
+        margin: 0 auto;
+        margin-top: 112px;
+        border-bottom: 2px solid #28293821;
+        border-top: 2px solid #28293821;
+        
+        
+    }
+    .tabs a{
+        text-decoration: none;
+        padding: 26px 0px;
+        color: var(--Dark-blue, #282938);
+    text-align: justify;
+    font-family: Poppins;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 32px; /* 177.778% */
+    opacity: 0.7;
+    }
+    .tabs a:nth-of-type(1){
+        color: var(--Royal-Blue, #2405F2);
+        font-weight: bold;
+        opacity: 1;
+    }
+}
+/* -------------------------------------   end 992 */
+/* -------------------------------------   1200 */
+@media only screen and (min-width:1200px){
+    .tabs{
+        width: 70%;
+        display: flex;
+        justify-content:space-between;
+        margin: 0 auto;
+        margin-top: 112px;
+        border-bottom: 2px solid #28293821;
+        border-top: 2px solid #28293821;
+        
+        
+    }
+    .tabs a{
+        text-decoration: none;
+        padding: 26px 0px;
+        color: var(--Dark-blue, #282938);
+    text-align: justify;
+    font-family: Poppins;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 32px; /* 177.778% */
+    opacity: 0.7;
+    }
+    .tabs a:nth-of-type(1){
+        color: var(--Royal-Blue, #2405F2);
+        font-weight: bold;
+        opacity: 1;
+    }
+}
+/* -------------------------------------   end 1200 */

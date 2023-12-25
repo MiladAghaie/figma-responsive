@@ -1,0 +1,111 @@
+/* -------------------------------------- 0 */
+@media only screen and (min-width:0px){
+  .abute {
+    margin: 0 auto;
+    width: 95%;
+    font-family: Poppins;
+    background-color: gray;
+  }
+  .abute h3 {
+    color: var(--Dark-blue, #282938);
+  margin-bottom: 12px;
+    /* Heading 3 */
+    font-family: Poppins;
+    font-size: 38px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 56px; /* 147.368% */
+  }
+  .abute p {
+    color: var(--Dark-blue, #282938);
+    opacity: 0.7;
+    /* Paragraph */
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px; /* 175% */
+    margin-bottom: 24px;
+  }
+  .abute div p{
+    margin-bottom: 16px;
+  }
+  .abute div p svg{
+    margin-right: 9px;
+      vertical-align: middle;
+  }
+}
+/* -------------------------------------- end 0 */
+/* -------------------------------------- 768 */
+@media only screen and (min-width:768px){
+  .abute {
+    margin: 0 auto;
+    width: 90%;
+    font-family: Poppins;
+    background-color: gray;
+  }
+  .abute h3 {
+    color: var(--Dark-blue, #282938);
+  margin-bottom: 12px;
+    /* Heading 3 */
+    font-family: Poppins;
+    font-size: 38px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 56px; /* 147.368% */
+  }
+  .abute p {
+    color: var(--Dark-blue, #282938);
+    opacity: 0.7;
+    /* Paragraph */
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px; /* 175% */
+    margin-bottom: 24px;
+  }
+  .abute div p{
+    margin-bottom: 16px;
+  }
+  .abute div p svg{
+    margin-right: 9px;
+      vertical-align: middle;
+  }
+}
+/* -------------------------------------- end 768 */
+/* -------------------------------------- 992 */
+@media only screen and (min-width:992px){
+  .abute {
+    margin: 0 auto;
+    width: 835.912px;
+    font-family: Poppins;
+    background-color: gray;
+  }
+  .abute h1 {
+    color: var(--Dark-blue, #282938);
+  
+    /* Heading 3 */
+    font-family: Poppins;
+    font-size: 38px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 56px; /* 147.368% */
+  }
+  .abute p {
+    color: var(--Dark-blue, #282938);
+    opacity: 0.7;
+    /* Paragraph */
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px; /* 175% */
+  }
+  .abute div p svg{
+      margin-right: 9px;
+      vertical-align: middle;
+  }
+}
+/* -------------------------------------- end 992 */
+

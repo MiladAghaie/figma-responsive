@@ -1,0 +1,102 @@
+/* *********************************** 0 */
+@media only screen and (min-width:0px){
+    .bulid{
+        width: 100%;
+    text-align: center;
+    margin-top: 50px;
+    }
+    .bulid h1{
+        color: var(--Dark-blue);
+    
+        width: 90%;
+    margin: 0 auto 20px;    
+    /* Heading 2 */
+    font-family: Poppins;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 64px; /* 133.333% */
+    }
+    .bulid blockquote{
+        width: 80%;
+    margin: 0 auto;
+        color: var(--Dark-blue);
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 28px; /* 175% */
+    opacity: 0.7;
+    }
+    .btn{
+        padding-top: 30px;
+    }
+    .btn button{
+    width: 230px;
+    height: 64px;
+    border-radius: 41px;
+    background: #FCD980;
+    border: unset;
+    
+    }
+    .btn button p{
+    color: #1B1C2B;
+    font-family: Manrope;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 32px; /* 177.778% */
+    }
+}
+/* *********************************** end 0 */
+/* *********************************** 768 */
+@media only screen and (min-width:768px){
+    .bulid{
+        width: 100%;
+    text-align: center;
+    margin-top: 80px;
+    }
+    .bulid h1{
+        color: var(--Dark-blue);
+    
+        width: 730px;
+    margin: 0 auto 20px;    
+    /* Heading 2 */
+    font-family: Poppins;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 64px; /* 133.333% */
+    }
+    .bulid blockquote{
+        width: 562px;
+    margin: 0 auto;
+        color: var(--Dark-blue);
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 28px; /* 175% */
+    opacity: 0.7;
+    }
+    .btn{
+        padding-top: 56px;
+    }
+    .btn button{
+    width: 230px;
+    height: 64px;
+    border-radius: 41px;
+    background: #FCD980;
+    border: unset;
+    
+    }
+    .btn button p{
+    color: #1B1C2B;
+    font-family: Manrope;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 32px; /* 177.778% */
+    }
+}
+/* *********************************** end 768 */
