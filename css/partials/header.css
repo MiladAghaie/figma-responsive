@@ -83,7 +83,7 @@
       display: none;
   }
   .link2{
-      background-color: var(--Dark-blue);
+    background-image: linear-gradient(to right bottom, #282938, #232548, #1e2156, #191a64, #191070);
       position: absolute;
       left: -100%;
       top: 0;
