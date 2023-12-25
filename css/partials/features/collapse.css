@@ -53,7 +53,7 @@
     }
     .collapse .collapse-end .accardon .show span{
         color: var(--Royal-Blue);
-        margin-right: 60px;
+        margin-right: 25px;
     /* Heading 6 */
     font-size: 24px;
     font-style: normal;
@@ -141,7 +141,7 @@
     }
     .collapse .collapse-end .accardon .show span{
         color: var(--Royal-Blue);
-        margin-right: 60px;
+        margin-right: 30px;
     /* Heading 6 */
     font-size: 24px;
     font-style: normal;
@@ -229,7 +229,7 @@
     }
     .collapse .collapse-end .accardon .show span{
         color: var(--Royal-Blue);
-        margin-right: 60px;
+        margin-right: 40px;
     /* Heading 6 */
     font-size: 24px;
     font-style: normal;
