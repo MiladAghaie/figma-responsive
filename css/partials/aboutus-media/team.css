@@ -1,0 +1,348 @@
+/* **************************************** 0 */
+@media only screen and (min-width:0px){
+    .team{
+        width: 100%;
+        background: var(--Grey);
+        padding: 128px 50px;
+        font-family: Poppins;
+    
+    }
+    .team h2{
+        color: var(--Dark-blue);
+        text-align: center;
+    
+    /* Heading 2 */
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 64px; /* 133.333% */
+    margin-bottom: 48px;
+    }
+    .team .team-container{
+        width: 100%;
+        display: grid;
+        justify-content: space-between;
+        grid-template-columns: 1fr;
+        row-gap: 20px;
+    }
+    .team .team-container .team-content{
+        padding: 48px 46px;
+        background-color: white;
+        text-align: center;
+        height: 344px;
+        
+    }
+    .team .team-container .team-content div {
+        position: relative;
+        width: fit-content;
+        display: inline-block;
+    }
+    .team .team-container .team-content div img{
+        margin-bottom: 30px;
+    }
+    .team .team-container .team-content div img:last-child{
+        position: absolute;
+        left: 0;
+        opacity: 0;
+        transition: 500ms;
+    }
+    .team .team-container .team-content div:hover img:last-child{
+        opacity: 1;
+    }
+    .team .team-container .team-content div:hover ~ #hover-svg-2{
+        opacity: 1;
+    }
+    
+    .team .team-container .team-content h6{
+        color: #1D2130;
+        text-align: center;
+    
+    /* Heading 6 */
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 36px; /* 150% */
+    }
+    .team .team-container .team-content p{
+        color: #1D2130;
+        text-align: center;
+        /* Paragraph */
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 28px; /* 175% */
+    }
+    
+    .team .team-container .team-content #hover-svg-2{
+        width: 100%;
+        transform: translate(0,-130px);
+        display: flex;
+        justify-content: center;
+        column-gap: 15px;
+        opacity: 0;
+        transition: 500ms;
+        transition-delay: 250ms;
+    }
+}
+/* **************************************** end 0 */
+/* **************************************** 768 */
+@media only screen and (min-width:768px){
+    .team{
+        width: 100%;
+        background: var(--Grey);
+        padding: 128px 50px;
+        font-family: Poppins;
+    
+    }
+    .team h2{
+        color: var(--Dark-blue);
+        text-align: center;
+    
+    /* Heading 2 */
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 64px; /* 133.333% */
+    margin-bottom: 48px;
+    }
+    .team .team-container{
+        width: 100%;
+        display: grid;
+        justify-content: space-between;
+        grid-template-columns: repeat(2,1fr);
+        gap: 20px 30px;
+    }
+    .team .team-container .team-content{
+        padding: 48px 46px;
+        background-color: white;
+        text-align: center;
+        height: 344px;
+        
+    }
+    .team .team-container .team-content div {
+        position: relative;
+        width: fit-content;
+        display: inline-block;
+    }
+    .team .team-container .team-content div img{
+        margin-bottom: 30px;
+    }
+    .team .team-container .team-content div img:last-child{
+        position: absolute;
+        left: 0;
+        opacity: 0;
+        transition: 500ms;
+    }
+    .team .team-container .team-content div:hover img:last-child{
+        opacity: 1;
+    }
+    .team .team-container .team-content div:hover ~ #hover-svg-2{
+        opacity: 1;
+    }
+    
+    .team .team-container .team-content h6{
+        color: #1D2130;
+        text-align: center;
+    
+    /* Heading 6 */
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 36px; /* 150% */
+    }
+    .team .team-container .team-content p{
+        color: #1D2130;
+        text-align: center;
+        /* Paragraph */
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 28px; /* 175% */
+    }
+    
+    .team .team-container .team-content #hover-svg-2{
+        width: 100%;
+        transform: translate(0,-130px);
+        display: flex;
+        justify-content: center;
+        column-gap: 15px;
+        opacity: 0;
+        transition: 500ms;
+        transition-delay: 250ms;
+    }
+}
+/* **************************************** end 768 */
+/* **************************************** 1200 */
+@media only screen and (min-width:1200px){
+    .team{
+        width: 100%;
+        background: var(--Grey);
+        padding: 128px 50px;
+        font-family: Poppins;
+    
+    }
+    .team h2{
+        color: var(--Dark-blue);
+        text-align: center;
+    
+    /* Heading 2 */
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 64px; /* 133.333% */
+    margin-bottom: 48px;
+    }
+    .team .team-container{
+        width: 100%;
+        display: flex;
+        flex-flow: row;
+        justify-content: space-between;
+        flex-wrap: nowrap;
+    }
+    .team .team-container .team-content{
+        padding: 48px 46px;
+        background-color: white;
+        text-align: center;
+        height: 344px;
+        
+    }
+    .team .team-container .team-content div {
+        position: relative;
+        width: fit-content;
+        display: inline-block;
+    }
+    .team .team-container .team-content div img{
+        margin-bottom: 30px;
+    }
+    .team .team-container .team-content div img:last-child{
+        position: absolute;
+        left: 0;
+        opacity: 0;
+        transition: 500ms;
+    }
+    .team .team-container .team-content div:hover img:last-child{
+        opacity: 1;
+    }
+    .team .team-container .team-content div:hover ~ #hover-svg-2{
+        opacity: 1;
+    }
+    
+    .team .team-container .team-content h6{
+        color: #1D2130;
+        text-align: center;
+    
+    /* Heading 6 */
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 36px; /* 150% */
+    }
+    .team .team-container .team-content p{
+        color: #1D2130;
+        text-align: center;
+        /* Paragraph */
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 28px; /* 175% */
+    }
+    
+    .team .team-container .team-content #hover-svg-2{
+        width: 100%;
+        transform: translate(0,-130px);
+        display: flex;
+        justify-content: center;
+        column-gap: 15px;
+        opacity: 0;
+        transition: 500ms;
+        transition-delay: 250ms;
+    }
+}
+/* **************************************** end 1200 */
+/* **************************************** 1400 */
+@media only screen and (min-width:1400px){
+    .team{
+        width: 100%;
+        background: var(--Grey);
+        padding: 128px 120px;
+        font-family: Poppins;
+    
+    }
+    .team h2{
+        color: var(--Dark-blue);
+        text-align: center;
+    
+    /* Heading 2 */
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 64px; /* 133.333% */
+    margin-bottom: 48px;
+    }
+    .team .team-container{
+        width: 100%;
+        display: flex;
+        flex-flow: row;
+        justify-content: space-between;
+        flex-wrap: nowrap;
+    }
+    .team .team-container .team-content{
+        padding: 48px 64px;
+        background-color: white;
+        text-align: center;
+        height: 344px;
+        
+    }
+    .team .team-container .team-content div {
+        position: relative;
+        width: fit-content;
+        display: inline-block;
+    }
+    .team .team-container .team-content div img{
+        margin-bottom: 30px;
+    }
+    .team .team-container .team-content div img:last-child{
+        position: absolute;
+        left: 0;
+        opacity: 0;
+        transition: 500ms;
+    }
+    .team .team-container .team-content div:hover img:last-child{
+        opacity: 1;
+    }
+    .team .team-container .team-content div:hover ~ #hover-svg-2{
+        opacity: 1;
+    }
+    
+    .team .team-container .team-content h6{
+        color: #1D2130;
+        text-align: center;
+    
+    /* Heading 6 */
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 36px; /* 150% */
+    }
+    .team .team-container .team-content p{
+        color: #1D2130;
+        text-align: center;
+        /* Paragraph */
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 28px; /* 175% */
+    }
+    
+    .team .team-container .team-content #hover-svg-2{
+        width: 100%;
+        transform: translate(0,-130px);
+        display: flex;
+        justify-content: center;
+        column-gap: 15px;
+        opacity: 0;
+        transition: 500ms;
+        transition-delay: 250ms;
+    }
+}
+/* **************************************** end 1400 */

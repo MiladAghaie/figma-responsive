@@ -1,0 +1,350 @@
+/* *****************************************  0p*/
+@media only screen and (min-width:0px){
+    .collapse{
+        width: 100%;
+        padding: 80px 15px 0;
+        display: flex;
+        flex-flow: column wrap;
+        font-family: Poppins;
+    }
+    .collapse .collapse-start{
+        width: 100%;
+        margin-bottom: 35px;
+    }
+    .collapse .collapse-start h3{
+        color: var(--Dark-blue);
+        margin-bottom: 10px;
+        /* Heading 3 */
+        
+        font-size: 38px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 56px; /* 147.368% */
+    }
+    .collapse .collapse-start h3 br{
+        display: none;
+    }
+    .collapse .collapse-start a{
+        color: var(--Royal-Blue);
+    text-align: center;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 32px; /* 177.778% */
+    text-decoration: none;
+    }
+    .collapse .collapse-end{
+        width: 100%;
+    }
+    .collapse .collapse-end .accardon{
+        width: 100%;
+        border-bottom: 2px solid #ECECF1;
+        padding: 32px 0;
+    }
+    .collapse .collapse-end .accardon:first-child{
+        padding-top: unset;
+    }
+    .collapse .collapse-end .accardon:last-child{
+        border: unset;
+    }
+    .collapse .collapse-end .accardon .show{
+        display: flex;
+        width: 100%;
+    }
+    .collapse .collapse-end .accardon .show span{
+        color: var(--Royal-Blue);
+        margin-right: 60px;
+    /* Heading 6 */
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 36px; /* 150% */
+    }
+    .collapse .collapse-end .accardon .show h6{
+        color: var(--Dark-blue);
+        
+        /* Heading 6 */
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 36px; /* 150% */
+    }
+    .collapse .collapse-end .accardon .show label{
+        margin-left: auto;
+        align-self: center;
+        cursor: pointer;
+    }
+    .collapse .collapse-end .accardon .hide{
+        display: none;
+    }
+    #show1:checked ~ .hide,#show2:checked ~ .hide,#show3:checked ~ .hide,#show4:checked ~ .hide,#show5:checked ~ .hide{
+        display: block;
+    }
+    .collapse .collapse-end .accardon .hide{
+        padding-top: 16px;
+        padding-left: 60px;
+    }
+}
+/* *****************************************  end 0p*/
+/* *****************************************  768 */
+@media only screen and (min-width:768px){
+    .collapse{
+        width: 100%;
+        padding: 80px 50px 0;
+        display: flex;
+        flex-flow: row wrap;
+        font-family: Poppins;
+    }
+    .collapse .collapse-start{
+        width: 35%;
+        margin-bottom: unset;
+    }
+    .collapse .collapse-start h3{
+        color: var(--Dark-blue);
+        margin-bottom: 10px;
+        /* Heading 3 */
+        
+        font-size: 38px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 56px; /* 147.368% */
+    }
+    .collapse .collapse-start h3 br{
+        display: block;
+    }
+    .collapse .collapse-start a{
+        color: var(--Royal-Blue);
+    text-align: center;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 32px; /* 177.778% */
+    text-decoration: none;
+    }
+    .collapse .collapse-end{
+        width: 65%;
+    }
+    .collapse .collapse-end .accardon{
+        width: 100%;
+        border-bottom: 2px solid #ECECF1;
+        padding: 32px 0;
+    }
+    .collapse .collapse-end .accardon:first-child{
+        padding-top: unset;
+    }
+    .collapse .collapse-end .accardon:last-child{
+        border: unset;
+    }
+    .collapse .collapse-end .accardon .show{
+        display: flex;
+        width: 100%;
+    }
+    .collapse .collapse-end .accardon .show span{
+        color: var(--Royal-Blue);
+        margin-right: 60px;
+    /* Heading 6 */
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 36px; /* 150% */
+    }
+    .collapse .collapse-end .accardon .show h6{
+        color: var(--Dark-blue);
+        
+        /* Heading 6 */
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 36px; /* 150% */
+    }
+    .collapse .collapse-end .accardon .show label{
+        margin-left: auto;
+        align-self: center;
+        cursor: pointer;
+    }
+    .collapse .collapse-end .accardon .hide{
+        display: none;
+    }
+    #show1:checked ~ .hide,#show2:checked ~ .hide,#show3:checked ~ .hide,#show4:checked ~ .hide,#show5:checked ~ .hide{
+        display: block;
+    }
+    .collapse .collapse-end .accardon .hide{
+        padding-top: 16px;
+        padding-left: 60px;
+    }
+}
+/* *****************************************  end 768 */
+/* *****************************************  992 */
+@media only screen and (min-width:992px){
+    .collapse{
+        width: 100%;
+        padding: 128px 100px 0;
+        display: flex;
+        flex-flow: row wrap;
+        font-family: Poppins;
+    }
+    .collapse .collapse-start{
+        width: 35%;
+        
+    }
+    .collapse .collapse-start h3{
+        color: var(--Dark-blue);
+        margin-bottom: 10px;
+        /* Heading 3 */
+        
+        font-size: 38px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 56px; /* 147.368% */
+    }
+    .collapse .collapse-start h3 br{
+        display: block;
+    }
+    .collapse .collapse-start a{
+        color: var(--Royal-Blue);
+    text-align: center;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 32px; /* 177.778% */
+    text-decoration: none;
+    }
+    .collapse .collapse-end{
+        width: 65%;
+    }
+    .collapse .collapse-end .accardon{
+        width: 100%;
+        border-bottom: 2px solid #ECECF1;
+        padding: 32px 0;
+    }
+    .collapse .collapse-end .accardon:first-child{
+        padding-top: unset;
+    }
+    .collapse .collapse-end .accardon:last-child{
+        border: unset;
+    }
+    .collapse .collapse-end .accardon .show{
+        display: flex;
+        width: 100%;
+    }
+    .collapse .collapse-end .accardon .show span{
+        color: var(--Royal-Blue);
+        margin-right: 60px;
+    /* Heading 6 */
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 36px; /* 150% */
+    }
+    .collapse .collapse-end .accardon .show h6{
+        color: var(--Dark-blue);
+        
+        /* Heading 6 */
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 36px; /* 150% */
+    }
+    .collapse .collapse-end .accardon .show label{
+        margin-left: auto;
+        align-self: center;
+        cursor: pointer;
+    }
+    .collapse .collapse-end .accardon .hide{
+        display: none;
+    }
+    #show1:checked ~ .hide,#show2:checked ~ .hide,#show3:checked ~ .hide,#show4:checked ~ .hide,#show5:checked ~ .hide{
+        display: block;
+    }
+    .collapse .collapse-end .accardon .hide{
+        padding-top: 16px;
+        padding-left: 60px;
+    }
+}
+/* *****************************************  end 992 */
+/* *****************************************  1200 */
+@media only screen and (min-width:1200px){
+    .collapse{
+        width: 100%;
+        padding: 128px 135px 0;
+        display: flex;
+        flex-flow: row wrap;
+        font-family: Poppins;
+    }
+    .collapse .collapse-start{
+        width: 35%;
+        
+    }
+    .collapse .collapse-start h3{
+        color: var(--Dark-blue);
+        margin-bottom: 10px;
+        /* Heading 3 */
+        
+        font-size: 38px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 56px; /* 147.368% */
+    }
+    .collapse .collapse-start a{
+        color: var(--Royal-Blue);
+    text-align: center;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 32px; /* 177.778% */
+    text-decoration: none;
+    }
+    .collapse .collapse-end{
+        width: 65%;
+    }
+    .collapse .collapse-end .accardon{
+        width: 100%;
+        border-bottom: 2px solid #ECECF1;
+        padding: 32px 0;
+    }
+    .collapse .collapse-end .accardon:first-child{
+        padding-top: unset;
+    }
+    .collapse .collapse-end .accardon:last-child{
+        border: unset;
+    }
+    .collapse .collapse-end .accardon .show{
+        display: flex;
+        width: 100%;
+    }
+    .collapse .collapse-end .accardon .show span{
+        color: var(--Royal-Blue);
+        margin-right: 60px;
+    /* Heading 6 */
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 36px; /* 150% */
+    }
+    .collapse .collapse-end .accardon .show h6{
+        color: var(--Dark-blue);
+        
+        /* Heading 6 */
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 36px; /* 150% */
+    }
+    .collapse .collapse-end .accardon .show label{
+        margin-left: auto;
+        align-self: center;
+        cursor: pointer;
+    }
+    .collapse .collapse-end .accardon .hide{
+        display: none;
+    }
+    #show1:checked ~ .hide,#show2:checked ~ .hide,#show3:checked ~ .hide,#show4:checked ~ .hide,#show5:checked ~ .hide{
+        display: block;
+    }
+    .collapse .collapse-end .accardon .hide{
+        padding-top: 16px;
+        padding-left: 60px;
+    }
+}
+/* *****************************************  end 1200 */
+

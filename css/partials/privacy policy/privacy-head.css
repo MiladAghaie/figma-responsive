@@ -1,0 +1,112 @@
+@media only screen and (min-width:0px){
+    .privacy-head{
+        width: 100%;
+        padding: 50px 0px 0;
+        font-family: Poppins;
+    }
+    .privacy-head h2{
+        color: var(--Dark-blue);
+        
+        /* Heading 2 */
+        font-size: 48px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 64px; /* 133.333% */
+        text-align: center;
+        margin-bottom: 16px;
+    }
+    .privacy-head p{
+        color: var(--Dark-blue);
+    text-align: center;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 28px; /* 175% */
+    width: 80%;
+    margin: 0 auto;
+    }
+} 
+@media only screen and (min-width:768px){
+    .privacy-head{
+        width: 100%;
+        padding: 100px 50px 0;
+        font-family: Poppins;
+    }
+    .privacy-head h2{
+        color: var(--Dark-blue);
+        
+        /* Heading 2 */
+        font-size: 48px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 64px; /* 133.333% */
+        text-align: center;
+        margin-bottom: 16px;
+    }
+    .privacy-head p{
+        color: var(--Dark-blue);
+    text-align: center;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 28px; /* 175% */
+    width: 562px;
+    margin: 0 auto;
+    }
+} 
+@media only screen and (min-width:992px){
+    .privacy-head{
+        width: 100%;
+        padding: 100px 100px 0;
+        font-family: Poppins;
+    }
+    .privacy-head h2{
+        color: var(--Dark-blue);
+        
+        /* Heading 2 */
+        font-size: 48px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 64px; /* 133.333% */
+        text-align: center;
+        margin-bottom: 16px;
+    }
+    .privacy-head p{
+        color: var(--Dark-blue);
+    text-align: center;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 28px; /* 175% */
+    width: 562px;
+    margin: 0 auto;
+    }
+} 
+@media only screen and (min-width:1200px){
+    .privacy-head{
+        width: 100%;
+        padding: 128px 135px 0;
+        font-family: Poppins;
+    }
+    .privacy-head h2{
+        color: var(--Dark-blue);
+        
+        /* Heading 2 */
+        font-size: 48px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 64px; /* 133.333% */
+        text-align: center;
+        margin-bottom: 16px;
+    }
+    .privacy-head p{
+        color: var(--Dark-blue);
+    text-align: center;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 28px; /* 175% */
+    width: 562px;
+    margin: 0 auto;
+    }
+} 

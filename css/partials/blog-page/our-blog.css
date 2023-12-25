@@ -1,0 +1,400 @@
+/* ***************************************  0px */
+@media only screen and (min-width:0px){
+    .our-blog{
+        width: 100%;
+        margin-top: 30px;
+        padding: 0px 15px;
+        font-family: Poppins;
+    }
+    .our-blog h2{
+        color: var(--Dark-blue);
+        
+    /* Heading 2 */
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 64px; /* 133.333% */
+    text-align: center;
+    margin-bottom: 48px;
+    }
+    .our-blog .blog-cards{
+        width: 100%;
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        grid-template-rows:auto;
+        gap: 30px 10px;
+    }
+    .our-blog .blog-cards .blog-card img{
+        width: 100%;
+        margin-bottom: 32px;
+    }
+    .our-blog .blog-cards .blog-card p{
+        color: var(--Dark-blue);
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 28px; /* 175% */
+        opacity: 0.7;
+        margin-bottom: 16px;
+    }
+    .our-blog .blog-cards .blog-card h6{
+        color: var(--Dark-blue);
+        
+    /* Heading 6 */
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 36px; /* 150% */
+    margin-bottom: 16px;
+    }
+    .our-blog .blog-cards .blog-card blockquote{
+        color: var(--Dark-blue);
+        opacity: 0.7;
+    /* Paragraph */
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px; /* 175% */
+    margin-bottom: 16px;
+    }
+    .our-blog .blog-cards .blog-card section{
+        width: 100%;
+    }
+    .our-blog .blog-cards .blog-card section a{
+        color: var(--Tint-blue);
+        font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 28px; /* 175% */
+    text-decoration: none;
+    }
+    .our-blog .blog-cards .blog-card section a svg{
+        fill: var(--Royal-Blue);
+    stroke-width: 1.5px;
+    stroke: var(--Dark-blue);
+    margin-left: 10px;
+    
+    }
+    
+}
+/* ***************************************  end 0px */
+/* ***************************************  576px */
+@media only screen and (min-width:576px){
+    .our-blog{
+        width: 100%;
+        margin-top: 50px;
+        padding: 0px 15px;
+        font-family: Poppins;
+    }
+    .our-blog h2{
+        color: var(--Dark-blue);
+        
+    /* Heading 2 */
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 64px; /* 133.333% */
+    text-align: center;
+    margin-bottom: 48px;
+    }
+    .our-blog .blog-cards{
+        width: 100%;
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        grid-template-rows: repeat(3,auto);
+        gap: 30px 10px;
+    }
+    .our-blog .blog-cards .blog-card img{
+        width: 100%;
+        margin-bottom: 32px;
+    }
+    .our-blog .blog-cards .blog-card p{
+        color: var(--Dark-blue);
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 28px; /* 175% */
+        opacity: 0.7;
+        margin-bottom: 16px;
+    }
+    .our-blog .blog-cards .blog-card h6{
+        color: var(--Dark-blue);
+        
+    /* Heading 6 */
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 36px; /* 150% */
+    margin-bottom: 16px;
+    }
+    .our-blog .blog-cards .blog-card blockquote{
+        color: var(--Dark-blue);
+        opacity: 0.7;
+    /* Paragraph */
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px; /* 175% */
+    margin-bottom: 16px;
+    }
+    .our-blog .blog-cards .blog-card section{
+        width: 100%;
+    }
+    .our-blog .blog-cards .blog-card section a{
+        color: var(--Tint-blue);
+        font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 28px; /* 175% */
+    text-decoration: none;
+    }
+    .our-blog .blog-cards .blog-card section a svg{
+        fill: var(--Royal-Blue);
+    stroke-width: 1.5px;
+    stroke: var(--Dark-blue);
+    margin-left: 10px;
+    
+    }
+    
+}
+/* ***************************************  end 576px */
+/* ***************************************  768px */
+@media only screen and (min-width:768px){
+    .our-blog{
+        width: 100%;
+        margin-top: 80px;
+        padding: 0 50px;
+        font-family: Poppins;
+    }
+    .our-blog h2{
+        color: var(--Dark-blue);
+        
+    /* Heading 2 */
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 64px; /* 133.333% */
+    text-align: center;
+    margin-bottom: 48px;
+    }
+    .our-blog .blog-cards{
+        width: 100%;
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        grid-template-rows: repeat(3,auto);
+        gap: 48px 20px;
+    }
+    .our-blog .blog-cards .blog-card img{
+        width: 100%;
+        margin-bottom: 32px;
+    }
+    .our-blog .blog-cards .blog-card p{
+        color: var(--Dark-blue);
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 28px; /* 175% */
+        opacity: 0.7;
+        margin-bottom: 16px;
+    }
+    .our-blog .blog-cards .blog-card h6{
+        color: var(--Dark-blue);
+        
+    /* Heading 6 */
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 36px; /* 150% */
+    margin-bottom: 16px;
+    }
+    .our-blog .blog-cards .blog-card blockquote{
+        color: var(--Dark-blue);
+        opacity: 0.7;
+    /* Paragraph */
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px; /* 175% */
+    margin-bottom: 16px;
+    }
+    .our-blog .blog-cards .blog-card section{
+        width: 100%;
+    }
+    .our-blog .blog-cards .blog-card section a{
+        color: var(--Tint-blue);
+        font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 28px; /* 175% */
+    text-decoration: none;
+    }
+    .our-blog .blog-cards .blog-card section a svg{
+        fill: var(--Royal-Blue);
+    stroke-width: 1.5px;
+    stroke: var(--Dark-blue);
+    margin-left: 10px;
+    
+    }
+    
+}
+/* ***************************************  end 768px */
+/* ***************************************  992px */
+@media only screen and (min-width:992px){
+    .our-blog{
+        width: 100%;
+        margin-top: 128px;
+        padding: 0 100px;
+        font-family: Poppins;
+    }
+    .our-blog h2{
+        color: var(--Dark-blue);
+        
+    /* Heading 2 */
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 64px; /* 133.333% */
+    text-align: center;
+    margin-bottom: 48px;
+    }
+    .our-blog .blog-cards{
+        width: 100%;
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        grid-template-rows: repeat(2,auto);
+        gap: 48px 20px;
+    }
+    .our-blog .blog-cards .blog-card img{
+        width: 100%;
+        margin-bottom: 32px;
+    }
+    .our-blog .blog-cards .blog-card p{
+        color: var(--Dark-blue);
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 28px; /* 175% */
+        opacity: 0.7;
+        margin-bottom: 16px;
+    }
+    .our-blog .blog-cards .blog-card h6{
+        color: var(--Dark-blue);
+        
+    /* Heading 6 */
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 36px; /* 150% */
+    margin-bottom: 16px;
+    }
+    .our-blog .blog-cards .blog-card blockquote{
+        color: var(--Dark-blue);
+        opacity: 0.7;
+    /* Paragraph */
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px; /* 175% */
+    margin-bottom: 16px;
+    }
+    .our-blog .blog-cards .blog-card section{
+        width: 100%;
+    }
+    .our-blog .blog-cards .blog-card section a{
+        color: var(--Tint-blue);
+        font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 28px; /* 175% */
+    text-decoration: none;
+    }
+    .our-blog .blog-cards .blog-card section a svg{
+        fill: var(--Royal-Blue);
+    stroke-width: 1.5px;
+    stroke: var(--Dark-blue);
+    margin-left: 10px;
+    
+    }
+    
+}
+/* ***************************************  end 992px */
+/* ***************************************  1200px */
+@media only screen and (min-width:1200px){
+    .our-blog{
+        width: 100%;
+        margin-top: 128px;
+        padding: 0 135px;
+        font-family: Poppins;
+    }
+    .our-blog h2{
+        color: var(--Dark-blue);
+        
+    /* Heading 2 */
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 64px; /* 133.333% */
+    text-align: center;
+    margin-bottom: 48px;
+    }
+    .our-blog .blog-cards{
+        width: 100%;
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        grid-template-rows: repeat(2,auto);
+        gap: 64px 32px;
+    }
+    .our-blog .blog-cards .blog-card img{
+        width: 100%;
+        margin-bottom: 32px;
+    }
+    .our-blog .blog-cards .blog-card p{
+        color: var(--Dark-blue);
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 28px; /* 175% */
+        opacity: 0.7;
+        margin-bottom: 16px;
+    }
+    .our-blog .blog-cards .blog-card h6{
+        color: var(--Dark-blue);
+        
+    /* Heading 6 */
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 36px; /* 150% */
+    margin-bottom: 16px;
+    }
+    .our-blog .blog-cards .blog-card blockquote{
+        color: var(--Dark-blue);
+        opacity: 0.7;
+    /* Paragraph */
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px; /* 175% */
+    margin-bottom: 16px;
+    }
+    .our-blog .blog-cards .blog-card section{
+        width: 100%;
+    }
+    .our-blog .blog-cards .blog-card section a{
+        color: var(--Tint-blue);
+        font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 28px; /* 175% */
+    text-decoration: none;
+    }
+    .our-blog .blog-cards .blog-card section a svg{
+        fill: var(--Royal-Blue);
+    stroke-width: 1.5px;
+    stroke: var(--Dark-blue);
+    margin-left: 10px;
+    
+    }
+    
+}
+/* ***************************************  end 1200px */

@@ -1,0 +1,248 @@
+/* *****************************************    0 */
+@media only screen and (min-width:0px){
+    .title{
+        width: 90%;
+        margin: 0 auto;
+        margin-top: 64px;
+        font-family: Poppins;
+    }
+    .title h3{
+        color: var(--Dark-blue);
+        
+        /* Heading 3 */
+        font-size: 38px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 56px; /* 147.368% */
+        margin-bottom: 32px;
+    }
+    .title p,blockquote{
+        color: var(--Dark-blue);
+        opacity: 0.7;
+        /* Paragraph */
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 28px; /* 175% */
+        margin-bottom: 24px;
+    }
+    .title span{
+        opacity: 0.7;
+    color: var(--Royal-Blue);
+    
+    /* Paragraph */
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+    }
+    .title blockquote:nth-of-type(1){
+        margin-bottom: 40px;
+    }
+    .title ul{
+        list-style: none;
+        margin-bottom: 16px;
+    }
+    .title ul li{
+        color: var(--Dark-blue);
+        
+        /* Paragraph */
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 28px; /* 175% */
+        margin-bottom: 12px;
+        opacity: 0.7;
+    }
+    .title ul li svg{
+        margin-right: 8px;
+        vertical-align: middle;
+    }
+}
+/* *****************************************    end 0 */
+/* *****************************************    768 */
+@media only screen and (min-width:768px){
+    .title{
+        width: 750px;
+        margin: 0 auto;
+        margin-top: 64px;
+        font-family: Poppins;
+    }
+    .title h3{
+        color: var(--Dark-blue);
+        
+        /* Heading 3 */
+        font-size: 38px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 56px; /* 147.368% */
+        margin-bottom: 32px;
+    }
+    .title p,blockquote{
+        color: var(--Dark-blue);
+        opacity: 0.7;
+        /* Paragraph */
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 28px; /* 175% */
+        margin-bottom: 24px;
+    }
+    .title span{
+        opacity: 0.7;
+    color: var(--Royal-Blue);
+    
+    /* Paragraph */
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+    }
+    .title blockquote:nth-of-type(1){
+        margin-bottom: 40px;
+    }
+    .title ul{
+        list-style: none;
+        margin-bottom: 16px;
+    }
+    .title ul li{
+        color: var(--Dark-blue);
+        
+        /* Paragraph */
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 28px; /* 175% */
+        margin-bottom: 12px;
+        opacity: 0.7;
+    }
+    .title ul li svg{
+        margin-right: 8px;
+        vertical-align: middle;
+    }
+}
+/* *****************************************    end 768 */
+/* *****************************************    992px */
+@media only screen and (min-width:992px){
+    .title{
+        width: 830px;
+        margin: 0 auto;
+        margin-top: 64px;
+        font-family: Poppins;
+    }
+    .title h3{
+        color: var(--Dark-blue);
+        
+        /* Heading 3 */
+        font-size: 38px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 56px; /* 147.368% */
+        margin-bottom: 32px;
+    }
+    .title p,blockquote{
+        color: var(--Dark-blue);
+        opacity: 0.7;
+        /* Paragraph */
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 28px; /* 175% */
+        margin-bottom: 24px;
+    }
+    .title span{
+        opacity: 0.7;
+    color: var(--Royal-Blue);
+    
+    /* Paragraph */
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+    }
+    .title blockquote:nth-of-type(1){
+        margin-bottom: 40px;
+    }
+    .title ul{
+        list-style: none;
+        margin-bottom: 16px;
+    }
+    .title ul li{
+        color: var(--Dark-blue);
+        
+        /* Paragraph */
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 28px; /* 175% */
+        margin-bottom: 12px;
+        opacity: 0.7;
+    }
+    .title ul li svg{
+        margin-right: 8px;
+        vertical-align: middle;
+    }
+}
+/* *****************************************    end 992px */
+/* *****************************************    1200px */
+@media only screen and (min-width:1200px){
+    .title{
+        width: 830px;
+        margin: 0 auto;
+        margin-top: 64px;
+        font-family: Poppins;
+    }
+    .title h3{
+        color: var(--Dark-blue);
+        
+        /* Heading 3 */
+        font-size: 38px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 56px; /* 147.368% */
+        margin-bottom: 32px;
+    }
+    .title p,blockquote{
+        color: var(--Dark-blue);
+        opacity: 0.7;
+        /* Paragraph */
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 28px; /* 175% */
+        margin-bottom: 24px;
+    }
+    .title span{
+        opacity: 0.7;
+    color: var(--Royal-Blue);
+    
+    /* Paragraph */
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+    }
+    .title blockquote:nth-of-type(1){
+        margin-bottom: 40px;
+    }
+    .title ul{
+        list-style: none;
+        margin-bottom: 16px;
+    }
+    .title ul li{
+        color: var(--Dark-blue);
+        
+        /* Paragraph */
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 28px; /* 175% */
+        margin-bottom: 12px;
+        opacity: 0.7;
+    }
+    .title ul li svg{
+        margin-right: 8px;
+        vertical-align: middle;
+    }
+}
+/* *****************************************    end 1200px */

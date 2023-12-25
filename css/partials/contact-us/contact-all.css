@@ -1,0 +1,90 @@
+@media only screen and (min-width:0px){
+    .contact-top{
+        width: 80%;
+        margin-top: 40px;
+        margin-bottom: 32px;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+        font-family: Poppins;
+    }
+    .contact-top h2{
+        color: var(--Dark-blue);
+        
+        /* Heading 2 */
+        margin-bottom: 16px;
+        font-size: 48px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 64px; /* 133.333% */
+    }
+    .contact-top p{
+        color: var(--Dark-blue);
+        opacity: 0.7;
+    /* Paragraph */
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px; /* 175% */
+    }
+}
+@media only screen and (min-width:576px){
+    .contact-top{
+        width: 60%;
+        margin-top: 80px;
+        margin-bottom: 64px;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+        font-family: Poppins;
+    }
+    .contact-top h2{
+        color: var(--Dark-blue);
+        
+        /* Heading 2 */
+        margin-bottom: 16px;
+        font-size: 48px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 64px; /* 133.333% */
+    }
+    .contact-top p{
+        color: var(--Dark-blue);
+        opacity: 0.7;
+    /* Paragraph */
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px; /* 175% */
+    }
+}
+@media only screen and (min-width:768px){
+    .contact-top{
+        width: 562px;
+        margin-top: 128px;
+        margin-bottom: 64px;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+        font-family: Poppins;
+    }
+    .contact-top h2{
+        color: var(--Dark-blue);
+        
+        /* Heading 2 */
+        margin-bottom: 16px;
+        font-size: 48px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 64px; /* 133.333% */
+    }
+    .contact-top p{
+        color: var(--Dark-blue);
+        opacity: 0.7;
+    /* Paragraph */
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px; /* 175% */
+    }
+}

@@ -1,0 +1,614 @@
+/* *****************************************   0 */
+@media only screen and (min-width:0px){
+    .benefit{
+        width: 100%;
+        padding: 60px 0px;
+        font-family: Poppins;
+    
+    }
+    .benefit h2{
+        color: var(--Dark-blue);
+        text-align: center;
+    
+    /* Heading 2 */
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 64px; /* 133.333% */
+    margin-bottom: 48px;
+    }
+    .benefit h2 br{
+        display: block;
+    }
+     .benefit .benfit-container{
+        width: 100%;
+        display: grid;
+        grid-template-columns: 1fr  ;
+        row-gap: 20px;
+        margin-bottom: 48px;
+        
+    }
+     .benefit .benfit-container .benefit-content{
+         padding:  15px;
+         background: var(--Grey);
+        }
+        .benefit .benfit-container .benefit-content:nth-of-type(1){
+            display: block;
+        }
+    .benefit .benfit-container .benefit-content blockquote{
+        margin-bottom: 26px;
+    }
+    .benefit .benfit-container .benefit-content h6{
+        color: var(--Dark-blue);
+        margin-bottom: 12px;
+        /* Heading 6 */
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 36px; /* 150% */
+    }
+    .benefit .benfit-container .benefit-content p{
+        color: var(--Dark-blue);
+        opacity: 0.7;
+    /* Paragraph */
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px; /* 175% */
+    }
+    .benefit .benefit-logo{
+        width: 100%;
+        display: flex;
+        flex-flow: column ;
+    }
+    .benefit .benefit-logo .benefit-logo-text{
+        margin-right: 0px;
+        padding-left: 15px;
+        width: 100%;
+        text-align: center;
+    }
+    .benefit .benefit-logo .benefit-logo-text h3{
+        color: var(--Dark-blue);
+        
+        /* Heading 3 */
+        font-size: 38px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 56px; /* 147.368% */
+    }
+    .benefit .benefit-logo .benefit-logo-text p{
+        color: var(--Dark-blue);
+        
+    /* Paragraph */
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px; /* 175% */
+    }
+    .benefit .benefit-logo .benefit-logo-svg {
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        align-content: space-around;
+        width: calc(100%);
+        justify-content: end;
+        padding:10px 15px;
+    }
+    .benefit .benefit-logo .benefit-logo-svg span{
+        text-align: center;
+    }
+    .benefit .benefit-logo .benefit-logo-svg span:nth-of-type(1){
+        display: block;
+    }
+    .benefit .benefit-logo .benefit-logo-svg span:nth-of-type(4){
+        display: none;
+    }
+}
+/* *****************************************   end 0 */
+/* *****************************************   576 */
+@media only screen and (min-width:576px){
+    .benefit{
+        width: 100%;
+        padding: 60px 0px;
+        font-family: Poppins;
+    
+    }
+    .benefit h2{
+        color: var(--Dark-blue);
+        text-align: center;
+    
+    /* Heading 2 */
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 64px; /* 133.333% */
+    margin-bottom: 48px;
+    }
+    .benefit h2 br{
+        display: block;
+    }
+     .benefit .benfit-container{
+        width: 100%;
+        display: grid;
+        grid-template-columns: 1fr  ;
+        row-gap: 20px;
+        margin-bottom: 48px;
+        
+    }
+     .benefit .benfit-container .benefit-content{
+         padding:  15px;
+         background: var(--Grey);
+        }
+        .benefit .benfit-container .benefit-content:nth-of-type(1){
+            display: block;
+        }
+    .benefit .benfit-container .benefit-content blockquote{
+        margin-bottom: 26px;
+    }
+    .benefit .benfit-container .benefit-content h6{
+        color: var(--Dark-blue);
+        margin-bottom: 12px;
+        /* Heading 6 */
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 36px; /* 150% */
+    }
+    .benefit .benfit-container .benefit-content p{
+        color: var(--Dark-blue);
+        opacity: 0.7;
+    /* Paragraph */
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px; /* 175% */
+    }
+    .benefit .benefit-logo{
+        width: 100%;
+        display: flex;
+        flex-flow: row ;
+    }
+    .benefit .benefit-logo .benefit-logo-text{
+        margin-right: 0px;
+        padding-left: 15px;
+        width: auto;
+    }
+    .benefit .benefit-logo .benefit-logo-text h3{
+        color: var(--Dark-blue);
+        
+        /* Heading 3 */
+        font-size: 38px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 56px; /* 147.368% */
+    }
+    .benefit .benefit-logo .benefit-logo-text p{
+        color: var(--Dark-blue);
+        
+    /* Paragraph */
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px; /* 175% */
+    }
+    .benefit .benefit-logo .benefit-logo-svg {
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        align-content: center;
+        width: calc(100%);
+        justify-content: end;
+        padding-right: 15px;
+        padding-left: unset;
+        padding-top: unset;
+        padding-bottom: unset;
+    }
+    .benefit .benefit-logo .benefit-logo-svg span{
+        text-align: end;
+    }
+    .benefit .benefit-logo .benefit-logo-svg span:nth-of-type(1){
+        display: block;
+    }
+    .benefit .benefit-logo .benefit-logo-svg span:nth-of-type(4){
+        display: none;
+    }
+}
+/* *****************************************   end 576 */
+/* *****************************************   768 */
+@media only screen and (min-width:768px){
+    .benefit{
+        width: 100%;
+        padding: 80px 50px;
+        font-family: Poppins;
+    
+    }
+    .benefit h2{
+        color: var(--Dark-blue);
+        text-align: center;
+    
+    /* Heading 2 */
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 64px; /* 133.333% */
+    margin-bottom: 48px;
+    }
+    .benefit h2 br{
+        display: block;
+    }
+     .benefit .benfit-container{
+        width: 100%;
+        display: grid;
+        grid-template-columns: 1fr 1fr ;
+        column-gap: 20px;
+        margin-bottom: 48px;
+        row-gap: unset;
+    }
+     .benefit .benfit-container .benefit-content{
+         padding:  15px;
+         background: var(--Grey);
+        }
+        .benefit .benfit-container .benefit-content:nth-of-type(1){
+            display: none;
+        }
+    .benefit .benfit-container .benefit-content blockquote{
+        margin-bottom: 26px;
+    }
+    .benefit .benfit-container .benefit-content h6{
+        color: var(--Dark-blue);
+        margin-bottom: 12px;
+        /* Heading 6 */
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 36px; /* 150% */
+    }
+    .benefit .benfit-container .benefit-content p{
+        color: var(--Dark-blue);
+        opacity: 0.7;
+    /* Paragraph */
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px; /* 175% */
+    }
+    .benefit .benefit-logo{
+        width: 100%;
+        display: flex;
+        flex-flow: row ;
+    }
+    .benefit .benefit-logo .benefit-logo-text{
+        margin-right: 5px;
+        padding-left: unset;
+    }
+    .benefit .benefit-logo .benefit-logo-text h3{
+        color: var(--Dark-blue);
+        
+        /* Heading 3 */
+        font-size: 38px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 56px; /* 147.368% */
+    }
+    .benefit .benefit-logo .benefit-logo-text p{
+        color: var(--Dark-blue);
+        
+    /* Paragraph */
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px; /* 175% */
+    }
+    .benefit .benefit-logo .benefit-logo-svg {
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        align-content: center;
+        width: calc(100%);
+        justify-content: end;
+        padding-right: unset;
+    }
+    .benefit .benefit-logo .benefit-logo-svg span{
+        text-align: end;
+    }
+    .benefit .benefit-logo .benefit-logo-svg span:nth-of-type(1){
+        display: none;
+    }
+    .benefit .benefit-logo .benefit-logo-svg span:nth-of-type(4){
+        display: none;
+    }
+}
+/* *****************************************   end 768 */
+/* *****************************************   992 */
+@media only screen and (min-width:992px){
+    .benefit{
+        width: 100%;
+        padding: 128px 100px;
+        font-family: Poppins;
+    
+    }
+    .benefit h2{
+        color: var(--Dark-blue);
+        text-align: center;
+    
+    /* Heading 2 */
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 64px; /* 133.333% */
+    margin-bottom: 48px;
+    }
+    .benefit h2 br{
+        display: block;
+    }
+     .benefit .benfit-container{
+        width: 100%;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        column-gap: 10px;
+        margin-bottom: 48px;
+        
+    }
+     .benefit .benfit-container .benefit-content{
+         padding:  15px;
+         background: var(--Grey);
+    }
+    .benefit .benfit-container .benefit-content:nth-of-type(1){
+        display: block;
+    }
+    .benefit .benfit-container .benefit-content blockquote{
+        margin-bottom: 26px;
+    }
+    .benefit .benfit-container .benefit-content h6{
+        color: var(--Dark-blue);
+        margin-bottom: 12px;
+        /* Heading 6 */
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 36px; /* 150% */
+    }
+    .benefit .benfit-container .benefit-content p{
+        color: var(--Dark-blue);
+        opacity: 0.7;
+    /* Paragraph */
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px; /* 175% */
+    }
+    .benefit .benefit-logo{
+        width: 100%;
+        display: flex;
+        flex-flow: row ;
+    }
+    .benefit .benefit-logo .benefit-logo-text{
+        margin-right: 5px;
+    }
+    .benefit .benefit-logo .benefit-logo-text h3{
+        color: var(--Dark-blue);
+        
+        /* Heading 3 */
+        font-size: 38px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 56px; /* 147.368% */
+    }
+    .benefit .benefit-logo .benefit-logo-text p{
+        color: var(--Dark-blue);
+        
+    /* Paragraph */
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px; /* 175% */
+    }
+    .benefit .benefit-logo .benefit-logo-svg {
+        display: grid;
+        grid-template-columns: repeat(4,1fr);
+        align-content: center;
+        width: calc(100%);
+        justify-content: end;
+    }
+    .benefit .benefit-logo .benefit-logo-svg span{
+        text-align: center;
+    }
+    .benefit .benefit-logo .benefit-logo-svg span:nth-of-type(1){
+        display: none;
+    }
+    .benefit .benefit-logo .benefit-logo-svg span:nth-of-type(4){
+        display: block;
+    }
+}
+/* *****************************************   end 992 */
+/* *****************************************   1200 */
+@media only screen and (min-width:1200px){
+    .benefit{
+        width: 100%;
+        padding: 128px 135px;
+        font-family: Poppins;
+    
+    }
+    .benefit h2{
+        color: var(--Dark-blue);
+        text-align: center;
+    
+    /* Heading 2 */
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 64px; /* 133.333% */
+    margin-bottom: 48px;
+    }
+    .benefit h2 br{
+        display: block;
+    }
+     .benefit .benfit-container{
+        width: 100%;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        column-gap: 24px;
+        margin-bottom: 48px;
+        
+    }
+     .benefit .benfit-container .benefit-content{
+         padding:  30px;
+         
+         background: var(--Grey);
+    }
+    .benefit .benfit-container .benefit-content blockquote{
+        margin-bottom: 26px;
+    }
+    .benefit .benfit-container .benefit-content h6{
+        color: var(--Dark-blue);
+        margin-bottom: 12px;
+        /* Heading 6 */
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 36px; /* 150% */
+    }
+    .benefit .benfit-container .benefit-content p{
+        color: var(--Dark-blue);
+        opacity: 0.7;
+    /* Paragraph */
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px; /* 175% */
+    }
+    .benefit .benefit-logo{
+        width: 100%;
+        display: flex;
+        flex-flow: row ;
+    }
+    .benefit .benefit-logo .benefit-logo-text{
+        margin-right: 60px;
+    }
+    .benefit .benefit-logo .benefit-logo-text h3{
+        color: var(--Dark-blue);
+        
+        /* Heading 3 */
+        font-size: 38px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 56px; /* 147.368% */
+    }
+    .benefit .benefit-logo .benefit-logo-text p{
+        color: var(--Dark-blue);
+        
+    /* Paragraph */
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px; /* 175% */
+    }
+    .benefit .benefit-logo .benefit-logo-svg {
+        display: grid;
+        grid-template-columns: repeat(4,1fr);
+        align-content: center;
+        width: calc(100%);
+        justify-content: end;
+    }
+    .benefit .benefit-logo .benefit-logo-svg span{
+        text-align: end;
+    }
+    .benefit .benefit-logo .benefit-logo-svg span:nth-of-type(1){
+        display: none;
+    }
+}
+/* *****************************************   end 1200 */
+/* *****************************************   1400 */
+@media only screen and (min-width:1400px){
+    .benefit{
+        width: 100%;
+        padding: 128px 135px;
+        font-family: Poppins;
+    
+    }
+    .benefit h2{
+        color: var(--Dark-blue);
+        text-align: center;
+    
+    /* Heading 2 */
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 64px; /* 133.333% */
+    margin-bottom: 48px;
+    }
+    .benefit h2 br{
+        display: block;
+    }
+     .benefit .benfit-container{
+        width: 100%;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        column-gap: 32px;
+        margin-bottom: 48px;
+        
+    }
+     .benefit .benfit-container .benefit-content{
+         padding:  48px;
+         
+         background: var(--Grey);
+    }
+    .benefit .benfit-container .benefit-content blockquote{
+        margin-bottom: 26px;
+    }
+    .benefit .benfit-container .benefit-content h6{
+        color: var(--Dark-blue);
+        margin-bottom: 12px;
+        /* Heading 6 */
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 36px; /* 150% */
+    }
+    .benefit .benfit-container .benefit-content p{
+        color: var(--Dark-blue);
+        opacity: 0.7;
+    /* Paragraph */
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px; /* 175% */
+    }
+    .benefit .benefit-logo{
+        width: 100%;
+        display: flex;
+        flex-flow: row ;
+    }
+    .benefit .benefit-logo .benefit-logo-text{
+        margin-right: 60px;
+    }
+    .benefit .benefit-logo .benefit-logo-text h3{
+        color: var(--Dark-blue);
+        
+        /* Heading 3 */
+        font-size: 38px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 56px; /* 147.368% */
+    }
+    .benefit .benefit-logo .benefit-logo-text p{
+        color: var(--Dark-blue);
+        
+    /* Paragraph */
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px; /* 175% */
+    }
+    .benefit .benefit-logo .benefit-logo-svg {
+        display: grid;
+        grid-template-columns: repeat(5,1fr);
+        align-content: center;
+        width: calc(100%);
+        justify-content: space-between;
+    }
+    .benefit .benefit-logo .benefit-logo-svg span{
+        text-align: end;
+    }
+    .benefit .benefit-logo .benefit-logo-svg span:nth-of-type(1){
+        display: block;
+    }
+}
+/* *****************************************   end 1400 */

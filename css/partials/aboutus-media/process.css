@@ -1,0 +1,372 @@
+/* ******************************************  0 */
+@media only screen and (min-width:0px){
+    .process{
+        width: 100%;
+        margin-top: 80px;
+        font-family: Poppins;
+    }
+    .process h2{
+        color: var(--Dark-blue);
+        text-align: center;
+    /* Heading 2 */
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 64px; /* 133.333% */
+    }
+    .process .parent{
+        margin-top: 60px;
+        width: 100%;
+        display: grid;
+        grid-template-columns:  1fr ;
+        row-gap: 10px;
+    }
+    .process .parent .process-card{
+        padding: 15px;
+    }
+    .process .parent .process-card .card-top {
+        margin-bottom: 32px;
+        display: flex;
+        align-items: center;
+        
+    }
+    .process .parent .process-card .card-top svg{
+        margin-right: 24px;
+    }
+    .process .parent .process-card .card-top section{
+        width: 100%;
+        border-bottom: 2px dashed black;
+        
+    }
+    .process .parent .process-card h6{
+        color: var(--Dark-blue);
+        
+    /* Heading 6 */
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 36px; /* 150% */
+    }
+    .process .parent .process-card p{
+        color: var(--Dark-blue);
+        opacity: 0.7;
+    /* Paragraph */
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px; /* 175% */
+    }
+}
+/* ******************************************  end 0 */
+/* ******************************************  576 */
+@media only screen and (min-width:576px){
+    .process{
+        width: 100%;
+        margin-top: 80px;
+        font-family: Poppins;
+    }
+    .process h2{
+        color: var(--Dark-blue);
+        text-align: center;
+    /* Heading 2 */
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 64px; /* 133.333% */
+    }
+    .process .parent{
+        margin-top: 60px;
+        width: 100%;
+        display: grid;
+        grid-template-columns:  1fr 1fr ;
+        column-gap: 12px;
+        row-gap: 10px;
+    }
+    .process .parent .process-card{
+        padding: 15px;
+    }
+    .process .parent .process-card .card-top {
+        margin-bottom: 32px;
+        display: flex;
+        align-items: center;
+        
+    }
+    .process .parent .process-card .card-top svg{
+        margin-right: 24px;
+    }
+    .process .parent .process-card .card-top section{
+        width: 100%;
+        border-bottom: 2px dashed black;
+        
+    }
+    .process .parent .process-card h6{
+        color: var(--Dark-blue);
+        
+    /* Heading 6 */
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 36px; /* 150% */
+    }
+    .process .parent .process-card p{
+        color: var(--Dark-blue);
+        opacity: 0.7;
+    /* Paragraph */
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px; /* 175% */
+    }
+}
+/* ******************************************  end 576 */
+/* ******************************************  768 */
+@media only screen and (min-width:768px){
+    .process{
+        width: 100%;
+        padding: 0 50px;
+        margin-top: 80px;
+        font-family: Poppins;
+    }
+    .process h2{
+        color: var(--Dark-blue);
+        text-align: center;
+    /* Heading 2 */
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 64px; /* 133.333% */
+    }
+    .process .parent{
+        margin-top: 60px;
+        width: 100%;
+        display: grid;
+        grid-template-columns:  1fr 1fr 1fr ;
+        column-gap: 12px;
+        row-gap: unset;
+    }
+    .process .parent .process-card{
+        padding: 10px;
+    }
+    .process .parent .process-card:nth-of-type(2){
+        display: none;
+    }
+    .process .parent .process-card .card-top {
+        margin-bottom: 32px;
+        display: flex;
+        align-items: center;
+        
+    }
+    .process .parent .process-card .card-top svg{
+        margin-right: 24px;
+    }
+    .process .parent .process-card .card-top section{
+        width: 100%;
+        border-bottom: 2px dashed black;
+        
+    }
+    .process .parent .process-card h6{
+        color: var(--Dark-blue);
+        
+    /* Heading 6 */
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 36px; /* 150% */
+    }
+    .process .parent .process-card p{
+        color: var(--Dark-blue);
+        opacity: 0.7;
+    /* Paragraph */
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px; /* 175% */
+    }
+}
+/* ******************************************  end 768 */
+/* ******************************************  992 */
+@media only screen and (min-width:992px){
+    .process{
+        width: 100%;
+        padding: 0 100px;
+        margin-top: 128px;
+        font-family: Poppins;
+    }
+    .process h2{
+        color: var(--Dark-blue);
+        text-align: center;
+    /* Heading 2 */
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 64px; /* 133.333% */
+    }
+    .process .parent{
+        margin-top: 60px;
+        width: 100%;
+        display: grid;
+        grid-template-columns:  1fr 1fr 1fr 1fr;
+        column-gap: 12px;
+    }
+    .process .parent .process-card{
+        padding: 10px;
+    }
+    .process .parent .process-card:nth-of-type(2){
+        display: block;
+    }
+    .process .parent .process-card .card-top {
+        margin-bottom: 32px;
+        display: flex;
+        align-items: center;
+        
+    }
+    .process .parent .process-card .card-top svg{
+        margin-right: 24px;
+    }
+    .process .parent .process-card .card-top section{
+        width: 100%;
+        border-bottom: 2px dashed black;
+        
+    }
+    .process .parent .process-card h6{
+        color: var(--Dark-blue);
+        
+    /* Heading 6 */
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 36px; /* 150% */
+    }
+    .process .parent .process-card p{
+        color: var(--Dark-blue);
+        opacity: 0.7;
+    /* Paragraph */
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px; /* 175% */
+    }
+}
+/* ******************************************  end 992 */
+/* ******************************************  1200 */
+@media only screen and (min-width:1200px){
+    .process{
+        width: 100%;
+        padding: 0 135px;
+        margin-top: 128px;
+        font-family: Poppins;
+    }
+    .process h2{
+        color: var(--Dark-blue);
+        text-align: center;
+    /* Heading 2 */
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 64px; /* 133.333% */
+    }
+    .process .parent{
+        margin-top: 60px;
+        width: 100%;
+        display: grid;
+        grid-template-columns:  1fr 1fr 1fr 1fr;
+        column-gap: 20px;
+    }
+    .process .parent .process-card{
+        padding: 10px;
+    }
+    .process .parent .process-card .card-top {
+        margin-bottom: 32px;
+        display: flex;
+        align-items: center;
+        
+    }
+    .process .parent .process-card .card-top svg{
+        margin-right: 24px;
+    }
+    .process .parent .process-card .card-top section{
+        width: 100%;
+        border-bottom: 2px dashed black;
+        
+    }
+    .process .parent .process-card h6{
+        color: var(--Dark-blue);
+        
+    /* Heading 6 */
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 36px; /* 150% */
+    }
+    .process .parent .process-card p{
+        color: var(--Dark-blue);
+        opacity: 0.7;
+    /* Paragraph */
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px; /* 175% */
+    }
+}
+/* ******************************************  end 1200 */
+/* ******************************************  1400 */
+@media only screen and (min-width:1400px){
+    .process{
+        width: 100%;
+        padding: 0 135px;
+        margin-top: 128px;
+        font-family: Poppins;
+    }
+    .process h2{
+        color: var(--Dark-blue);
+        text-align: center;
+    /* Heading 2 */
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 64px; /* 133.333% */
+    }
+    .process .parent{
+        margin-top: 60px;
+        width: 100%;
+        display: grid;
+        grid-template-columns:  1fr 1fr 1fr 1fr;
+        column-gap: 32px;
+    }
+    .process .parent .process-card{
+        padding: 10px;
+    }
+    .process .parent .process-card .card-top {
+        margin-bottom: 32px;
+        display: flex;
+        align-items: center;
+        
+    }
+    .process .parent .process-card .card-top svg{
+        margin-right: 24px;
+    }
+    .process .parent .process-card .card-top section{
+        width: 100%;
+        border-bottom: 2px dashed black;
+        
+    }
+    .process .parent .process-card h6{
+        color: var(--Dark-blue);
+        
+    /* Heading 6 */
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 36px; /* 150% */
+    }
+    .process .parent .process-card p{
+        color: var(--Dark-blue);
+        opacity: 0.7;
+    /* Paragraph */
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px; /* 175% */
+    }
+}
+/* ******************************************  end 1400 */

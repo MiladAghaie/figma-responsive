@@ -1,0 +1,315 @@
+
+/* *****************************************   0 */
+@media only screen and (min-width:0px){
+    .vision{
+        width: 100%;
+        background-color:white;
+        font-family: Poppins;
+    }
+    .vision .vission-content{
+        width: 100%;
+        display: flex;
+        flex-flow: column wrap;
+        justify-content: space-between;
+        padding: 0px 15px;
+    }
+    .vision .vission-content:nth-child(1){
+        margin-bottom: 50px;
+    }
+    .vision .vission-content:nth-child(2){
+        margin-bottom: 50px;
+        background: var(--Grey);
+    }
+    .vision .vission-content:nth-child(3){
+        margin-bottom: 50px;
+    }
+    .vision .vission-content:nth-child(4){
+        background: rgba(252, 217, 128, 0.10);
+    }
+    .vision .vission-content .start{
+        width: 100%;  
+        margin-bottom: 25px;
+    }
+    .vision .vission-content .start p{
+        margin-top: 54px; 
+        color: var(--Dark-blue);
+    
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 28px; /* 175% */
+    }
+    .vision .vission-content .start h3{
+        color: var(--Dark-blue);
+        margin: 16px 0;
+        /* Heading 3 */
+        font-size: 38px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 56px; /* 147.368% */
+        width: 100%;
+    }
+    .vision .vission-content .start blockquote{
+        color: var(--Dark-blue);
+        width: 100%;
+    /* Paragraph */
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px; /* 175% */
+    }
+    .vision .vission-content .end{
+        width: 100%;
+    }
+    .vision .vission-content .end img{
+        width: 100%;
+        object-fit: cover;
+        height: 450px;
+        object-position: center center;
+    }
+}
+/* *****************************************   end 0 */
+/* *****************************************   768 */
+@media only screen and (min-width:768px){
+    .vision{
+        width: 100%;
+        background-color:white;
+        font-family: Poppins;
+    }
+    .vision .vission-content{
+        width: 100%;
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: space-between;
+        padding: 0 50px;
+    }
+    .vision .vission-content:nth-child(1){
+        margin-bottom: 100px;
+    }
+    .vision .vission-content:nth-child(2){
+        margin-bottom: 100px;
+        background: var(--Grey);
+    }
+    .vision .vission-content:nth-child(3){
+        margin-bottom: 100px;
+    }
+    .vision .vission-content:nth-child(4){
+        background: rgba(252, 217, 128, 0.10);
+    }
+    .vision .vission-content:nth-child(odd) .start{
+        order: 1;
+    }
+    .vision .vission-content:nth-child(odd) .end{
+        order: 2;
+    }
+    .vision .vission-content:nth-child(even) .start{
+        order: 2;
+    }
+    .vision .vission-content:nth-child(even) .end{
+        order: 1;
+    }
+    .vision .vission-content .start{
+        width: 50%;  
+        margin-bottom: unset;
+    }
+    .vision .vission-content .start p{
+        margin-top: 54px; 
+        color: var(--Dark-blue);
+    
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 28px; /* 175% */
+    }
+    .vision .vission-content .start h3{
+        color: var(--Dark-blue);
+        margin: 16px 0;
+        /* Heading 3 */
+        font-size: 38px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 56px; /* 147.368% */
+        width: 100%;
+    }
+    .vision .vission-content .start blockquote{
+        color: var(--Dark-blue);
+        width: 100%;
+    /* Paragraph */
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px; /* 175% */
+    }
+    .vision .vission-content .end{
+        width: 40%;
+    }
+    .vision .vission-content .end img{
+        width: 100%;
+        object-fit: cover;
+        height: 450px;
+        object-position: center center;
+    }
+}
+/* *****************************************   end 768 */
+/* *****************************************   992 */
+@media only screen and (min-width:992px){
+    .vision{
+        width: 100%;
+        background-color:white;
+        font-family: Poppins;
+    }
+    .vision .vission-content{
+        width: 100%;
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: space-between;
+        padding: 0 100px;
+    }
+    .vision .vission-content:nth-child(1){
+        margin-bottom: 100px;
+    }
+    .vision .vission-content:nth-child(2){
+        margin-bottom: 100px;
+        background: var(--Grey);
+    }
+    .vision .vission-content:nth-child(3){
+        margin-bottom: 100px;
+    }
+    .vision .vission-content:nth-child(4){
+        background: rgba(252, 217, 128, 0.10);
+    }
+    .vision .vission-content:nth-child(odd) .start{
+        order: 1;
+    }
+    .vision .vission-content:nth-child(odd) .end{
+        order: 2;
+    }
+    .vision .vission-content:nth-child(even) .start{
+        order: 2;
+    }
+    .vision .vission-content:nth-child(even) .end{
+        order: 1;
+    }
+    .vision .vission-content .start{
+        width: 50%;  
+    }
+    .vision .vission-content .start p{
+        margin-top: 54px; 
+        color: var(--Dark-blue);
+    
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 28px; /* 175% */
+    }
+    .vision .vission-content .start h3{
+        color: var(--Dark-blue);
+        margin: 16px 0;
+        /* Heading 3 */
+        font-size: 38px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 56px; /* 147.368% */
+        width: 100%;
+    }
+    .vision .vission-content .start blockquote{
+        color: var(--Dark-blue);
+        width: 100%;
+    /* Paragraph */
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px; /* 175% */
+    }
+    .vision .vission-content .end{
+        width: 40%;
+    }
+    .vision .vission-content .end img{
+        width: 100%;
+        object-fit: cover;
+        height: 406px;
+        object-position: center center;
+    }
+}
+/* *****************************************   end 992 */
+/* *****************************************   1200 */
+@media only screen and (min-width:1200px){
+    .vision{
+        width: 100%;
+        background-color:white;
+        font-family: Poppins;
+    }
+    .vision .vission-content{
+        width: 100%;
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: space-between;
+        padding: 0 135px;
+    }
+    .vision .vission-content:nth-child(1){
+        margin-bottom: 100px;
+    }
+    .vision .vission-content:nth-child(2){
+        margin-bottom: 100px;
+        background: var(--Grey);
+    }
+    .vision .vission-content:nth-child(3){
+        margin-bottom: 100px;
+    }
+    .vision .vission-content:nth-child(4){
+        background: rgba(252, 217, 128, 0.10);
+    }
+    .vision .vission-content:nth-child(odd) .start{
+        order: 1;
+    }
+    .vision .vission-content:nth-child(odd) .end{
+        order: 2;
+    }
+    .vision .vission-content:nth-child(even) .start{
+        order: 2;
+    }
+    .vision .vission-content:nth-child(even) .end{
+        order: 1;
+    }
+    .vision .vission-content .start{
+        width: 50%;  
+    }
+    .vision .vission-content .start p{
+        margin-top: 54px; 
+        color: var(--Dark-blue);
+    
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 28px; /* 175% */
+    }
+    .vision .vission-content .start h3{
+        color: var(--Dark-blue);
+        margin: 16px 0;
+        /* Heading 3 */
+        font-size: 38px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 56px; /* 147.368% */
+        width: 90%;
+    }
+    .vision .vission-content .start blockquote{
+        color: var(--Dark-blue);
+        width: 80%;
+    /* Paragraph */
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px; /* 175% */
+    }
+    .vision .vission-content .end{
+        width: 40%;
+    }
+    .vision .vission-content .end img{
+        width: 100%;
+        object-fit: cover;
+        height: 336px;
+        object-position: center center;
+    }
+}
+/* *****************************************   end 1200 */
