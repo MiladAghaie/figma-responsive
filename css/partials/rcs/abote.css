@@ -4,7 +4,7 @@
     margin: 0 auto;
     width: 95%;
     font-family: Poppins;
-    background-color: gray;
+    background-color: transparent !important;
   }
   .abute h3 {
     color: var(--Dark-blue, #282938);
